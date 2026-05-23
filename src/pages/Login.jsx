@@ -58,9 +58,9 @@ export const Login = () => {
           
           {/* Back to Home */}
           <div className="flex justify-start -mb-2">
-            <Link
-              to="/"
-              className="group flex items-center gap-1.5 text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-violet-600 dark:hover:text-violet-400 transition-all duration-200"
+            <a
+              href="/"
+              className="group flex items-center gap-1 text-xs text-slate-400 hover:text-violet-400 transition-colors duration-200 font-semibold"
             >
               <span className="inline-block transition-transform duration-200 group-hover:-translate-x-1">←</span>
               Back to Home
