@@ -45,12 +45,12 @@ export const Login = () => {
           <div className="flex justify-start -mb-2">
             
               href="/"
-              className="flex items-center gap-1 text-xs text-slate-400 hover:text-violet-400 transition-colors duration-200 font-semibold"
+              className="group flex items-center gap-1 text-xs text-slate-400 hover:text-violet-400 transition-colors duration-200 font-semibold"
             >
-              ← Back to Home
+              <span className="inline-block transition-transform duration-200 group-hover:-translate-x-1">←</span>
+              Back to Home
             </a>
-          </div>
-          
+          </div>       
           {/* Logo Brand Header */}
           <div className="text-center space-y-3">
             <div className="inline-flex w-12 h-12 rounded-2xl bg-gradient-to-tr from-violet-600 via-indigo-600 to-blue-600 items-center justify-center shadow-lg shadow-indigo-500/20 mx-auto">
